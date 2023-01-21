@@ -1,6 +1,8 @@
-package com.example.meudesafiopicpay
+package com.example.meudesafiopicpay.presenter
 
 import androidx.lifecycle.*
+import com.example.meudesafiopicpay.data.UsersRepository
+import com.example.meudesafiopicpay.domain.Users
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.Call

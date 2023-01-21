@@ -2,6 +2,9 @@ package com.example.meudesafiopicpay
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
+import com.example.meudesafiopicpay.data.UsersRepository
+import com.example.meudesafiopicpay.domain.Users
+import com.example.meudesafiopicpay.presenter.UsersViewModel
 import io.mockk.mockk
 import io.mockk.verify
 import kotlinx.coroutines.ExperimentalCoroutinesApi

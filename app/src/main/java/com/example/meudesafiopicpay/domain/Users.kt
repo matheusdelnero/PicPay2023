@@ -1,4 +1,4 @@
-package com.example.meudesafiopicpay
+package com.example.meudesafiopicpay.domain
 
 data class Users(
     val id: String,

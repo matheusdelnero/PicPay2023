@@ -1,6 +1,6 @@
-package com.example.meudesafiopicpay
+package com.example.meudesafiopicpay.data.di
 
-import com.example.meudesafiopicpay.di.mainModule
+import com.example.meudesafiopicpay.data.di.mainModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

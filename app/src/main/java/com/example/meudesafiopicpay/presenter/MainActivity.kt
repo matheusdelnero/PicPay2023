@@ -1,8 +1,10 @@
-package com.example.meudesafiopicpay
+package com.example.meudesafiopicpay.presenter
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.meudesafiopicpay.R
+import com.example.meudesafiopicpay.UsersAdapter
 import com.example.meudesafiopicpay.databinding.ActivityMainBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
 class MainActivity : AppCompatActivity() {

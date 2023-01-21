@@ -1,5 +1,8 @@
 package com.example.meudesafiopicpay
 
+import com.example.meudesafiopicpay.data.RetrofitService
+import com.example.meudesafiopicpay.data.UsersRepository
+import com.example.meudesafiopicpay.presenter.UsersViewModel
 import org.junit.Assert.*
 import org.junit.Test
 

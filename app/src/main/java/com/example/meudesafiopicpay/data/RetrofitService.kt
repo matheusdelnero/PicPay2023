@@ -1,5 +1,6 @@
-package com.example.meudesafiopicpay
+package com.example.meudesafiopicpay.data
 
+import com.example.meudesafiopicpay.domain.Users
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -21,7 +22,7 @@ interface RetrofitService {
             retrofit.create(RetrofitService::class.java)
         }
 
-        fun getInstance() : RetrofitService{
+        fun getInstance() : RetrofitService {
             return retrofitService
         }
     }
