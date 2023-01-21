@@ -3,7 +3,7 @@ Este projeto consiste em exibir uma lista de usuarios, oriundas de uma API.
 
 Tecnologias utilizadas:
 
- Kotlin
+ Kotlin\n
  Live data
  MVVM
  Coil
